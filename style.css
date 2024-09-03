@@ -7,13 +7,26 @@ body {
 }
 
 h1{
-display: flex;
+    display: flex;
     justify-content: center;
-color: #c5c3c0;
+    color: #c5c3c0;
 
 }
 
 main{
     display:flex;
     justify-content: center;
+}
+.lupa{
+    background-image: none;
+    background-color: #316282;
+    border-radius: 3px;
+    border: 1px solid rgba( 0, 0, 0, 0.3);
+    box-shadow: 1px 1px 0px rgba( 255, 255, 255, 0.2);
+    color: #fff;
+    margin-bottom: 0px;
+    outline: none;
+    height: 27px;
+    padding: 0px 6px;
+
 }
