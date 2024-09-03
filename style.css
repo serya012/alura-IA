@@ -1,8 +1,73 @@
-body {
-    font-family: 'Roboto', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1b2838;
 }
 
-h1{
-display: flex;
-    justify-content: center;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #c5c3c0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.steam-logo {
+    display: flex;
+    align-items: center;
+}
+
+.steam-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.steam-logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #c5c3c0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-section a {
+    margin-right: 15px;
+}
+
+.user-section img {
+    width: 24px;
+    height: 24px;
+}
+
+.user-section .user-name {
+    margin-left: 5px;
+}
+
+.balance {
+    font-size: 16px;
+    font-weight: bold;
 }
